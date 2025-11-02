@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background: white;
+  padding: 0.52vw 2.08vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.10vw solid #eceff1 ;
+  box-shadow: 0 0.42vw 0.84vw rgba(0,0,0,0.08);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+}
+
+.logo {
+  position: relative;
+  left: 7em;
+  height: 1.04vw;
+}
+
+.upi {
+  gap: 0.42vw;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.30vw;
+  list-style: none;
+  font-size: 0.73vw;
+  font-weight: 600;
+}
+
+.nav-links li {
+  font-size: 0.78vw;
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1.04vw;
+}
+
+.download {
+  font-size: 0.73vw;
+  text-decoration: none;
+  color: #083ed1;
+  font-weight: 600;
+}
+
+.signin {
+  background: #002e8b;
+  color: white;
+  font-size: 0.73vw;
+  padding: 0.42vw 0.78vw;
+  border-radius: 1.04vw;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+}
+
+.signin:hover {
+  background: #0642b5;
+}
+
+.icon {
+  background: #fff;
+  color: #002e8b;
+  border-radius: 50%;
+  padding: 0.26vw;
+}
+
+.dropdown {
+  position: relative;
+  top: 0.5vw;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 1.30vw;
+  left: 0;
+  background: #ffffff;
+  border-radius: 0.42vw;
+  display: none;
+  flex-direction: column;
+  padding: 0.52vw 0;
+  width: 9.38vw;
+  z-index: 10;
+  box-shadow: 0 0.21vw 0.63vw rgba(0,0,0,0.08);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu a {
+  padding: 0.52vw 0.78vw;
+  font-size: 0.73vw;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.dropdown1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.ticket-menu {
+  position: absolute;
+  top: 1.82vw;
+  left: 0;
+  background: #ffffff;
+  border-radius: 0.52vw;
+  padding: 0.63vw 0;
+  width: 10.42vw;
+  display: none;
+  z-index: 999;
+  box-shadow: 0 0.42vw 1.15vw rgba(0,0,0,0.12);
+}
+
+.dropdown1:hover .ticket-menu {
+  display: block;
+}
+
+.ticket-menu a {
+  display: block;
+  padding: 0.63vw 0.94vw;
+  font-size: 0.78vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.container {
+  width: 100vw;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0.52vw 0.78vw;
+  }
+
+  .logo {
+    left: 0;
+    height: 0.94vw;
+  }
+
+  .nav-links,
+  .right-section {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    font-size: 1.15vw;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding: 0.42vw 0.63vw;
+  }
+  .logo {
+    height: 0.83vw;
+  }
+}
+
+.line2{
+  margin-left: 27vw;
+ margin-top:2vw;
+}

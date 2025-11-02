@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+.container {
+  width: 100vw;
+  margin-top: -3em;
+
+}
+.line1 {
+  box-sizing: border-box;
+position: fixed;
+top: 10vh;
+top: 1vw;
+  display: flex;
+  z-index: 2vw;
+}
+.e1 {
+  font-size: 3em;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+.e2 {
+  border-radius: 0.4em;
+  border: 0.15em solid rgba(0, 0, 0, 0.408);
+  opacity: 1;
+  height: 3em;
+  width: 38em;
+  margin-top: 1.7em;
+  margin-left: 2em;
+}
+#e2 {
+  margin-left: 3em;
+  position: relative;
+  top: -1.3em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.e3 {
+  font-size: 1.2em;
+  font-family: book;
+  margin-left: 16em;
+  position: relative;
+  top: 2em;
+}
+.e4 {
+  font-size: 1.2em;
+  font-family: book;
+  margin-left: 3em;
+  position: relative;
+  top: 2em;
+}
+.line2{
+    background-color: rgb(242, 218, 221);
+    height: 45vw;
+    width:100vw;
+    margin-top: 6vw;
+   overflow-y: scroll;
+}
+.box{
+  position: relative;
+  
+  
+    height: 40vw;
+    width: 26.5vw;
+    background-color: white;
+    justify-self: center;
+    margin-top: 6vw;
+    overflow-y:scroll;
+
+}
+.information{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    margin-left: 6em;
+}
